@@ -13,7 +13,7 @@ import java.util.List;
 @Transactional //중요
 @RequiredArgsConstructor //final 붙은 변수에 생성자 생성해준다.
 public class MemberService {
-
+    
     //fianl 넣어주면 컴파일시점에 인젝션 해줬나 안해줬나 확인이 가능하다.
     private final MemberRepository memberRepository;
 
