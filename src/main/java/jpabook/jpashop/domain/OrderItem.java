@@ -48,6 +48,6 @@ public class OrderItem {
 
     //==조회 로직==//
     public int getTotalPrice() {
-        return getOrderPrice() * getTotalPrice();
+        return getOrderPrice() * getCount();
     }
 }
